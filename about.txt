@@ -15,3 +15,5 @@ ele define a idéa dos estados
 - staging - quando salvamos um estagio - preparo
 - .git directory - um ponto que salvamos o diretório todo - armazenamento
 
+ciclo de vida dos estados dos arquivos
+
