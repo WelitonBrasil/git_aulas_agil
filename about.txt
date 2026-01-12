@@ -1,0 +1,17 @@
+git
+
+git-scm.com/doc - manual de instruções do git
+
+Como o git enxerga o nosso projeto?
+git não trabalha com diferenças mas com imagens.
+git trata seus dados mais como um conjunto de imagens
+de um sistema de arquivos em miniatura.
+ele é armazenado quer queira alteração ou não.
+como se o git tirasse fotos do seus arquivos
+como se fosse um save de uma fase dos vídeos games
+
+ele define a idéa dos estados
+- working - diretório que esta trabalhando
+- staging - quando salvamos um estagio - preparo
+- .git directory - um ponto que salvamos o diretório todo - armazenamento
+
