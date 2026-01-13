@@ -17,3 +17,6 @@ ele define a idéa dos estados
 
 ciclo de vida dos estados dos arquivos
 
+**** Conventional Commits *****
+docs, feat, fix, refractor
+
