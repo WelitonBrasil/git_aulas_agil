@@ -20,3 +20,10 @@ ciclo de vida dos estados dos arquivos
 **** Conventional Commits *****
 docs, feat, fix, refractor
 
+
+comandos
+git status
+git log --onelline
+git add .
+git commit - m 'docs: message'
+git --amend --no-edit (edita o commit acima)
