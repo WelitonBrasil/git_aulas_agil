@@ -1,5 +1,7 @@
-import random
 from.messages import display_messages
+import random
+
+print('Starting project again')
 
 while True:
     resposta = input('Deseja receber um Conselho? S/N :')
