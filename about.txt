@@ -24,6 +24,15 @@ docs, feat, fix, refractor
 comandos
 git status
 git log --onelline
-git add .
+git add . - adiciona todos os arquivos no staged
+git restore --staged . - volta os arquivos que foram colocados na área staged (que foram colocados para serem commitados)
+git restore . - volta todos os arquivos antes do ultimo git add .
 git commit - m 'docs: message'
 git --amend --no-edit (edita o commit acima)
+git reset 36086b3 - volta ao passo anterior ao commit, mas não restaura as alterações
+git reset 36086b3 --soft - volta o commit para esse ponto, ignorando os commits superiores,
+não apaga os arquivos, podendo eles serem commitados novamente
+git reset 36086b3 --hard - volta bruscamente para esse ponto, incluindo alterando os arquivos
+git diff - mostra todas as diferenças que os arquivos tiveram
+git diff (nome do arquivo) - mostra as diferenças realizadas nesse arquivo
+git diff (commit1)..(commit2) - mostra as diferenças entre commits
