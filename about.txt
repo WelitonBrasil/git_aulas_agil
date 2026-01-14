@@ -36,3 +36,21 @@ git reset 36086b3 --hard - volta bruscamente para esse ponto, incluindo alterand
 git diff - mostra todas as diferenças que os arquivos tiveram
 git diff (nome do arquivo) - mostra as diferenças realizadas nesse arquivo
 git diff (commit1)..(commit2) - mostra as diferenças entre commits
+git branch - uma branch é como se fosse uma separação da evolução do seu projeto,
+a cada commit o projeto evolua, é possível evoluir em paralelo e criar uma nova branch
+git checkout -b 'nomeBranch' - muda para uma nova branch
+git checkout master - master é o nome de uma branch existente, poderia ser qualquer
+nome de uma branch existente
+git checkout master - volta para o ultimo commit da branch
+git merge branchTeste - estando na branch master junte (merge) a branchTeste
+git rebase master - faça o merge junto com a branch master - os conflitos aparecem em sequencia
+git rebase --continue - continua o rebase após a solução dos conflitos
+ git branch -D branchTeste - Deleta a branch, usar esse comando quando já tiver 
+resolvido as questões da branch aberta em paralelo e feito o merge com a master
+
+
+
+
+
+
+
